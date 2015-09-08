@@ -1,5 +1,7 @@
 # str-to-argv
 
+[![Clojars Project](http://clojars.org/str-to-argv/latest-version.svg)](http://clojars.org/str-to-argv)
+
 ## What? Why?
 
 This library serves the very niche purpose of [parsing command-line arguments from a single string in Clojure](http://stackoverflow.com/questions/3249830/parsing-command-line-arguments-from-a-string-in-clojure). Usually, your shell takes care of splitting command-line arguments, so this is something you would never need to do manually. Once in a blue moon, though, you may need to do this. So, here's some code that does it.
